@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 // LEV 1
 
 app.get("/status", (req, res) => {
-    res.status(200).send("Ok");
+    res.status(200).send("OKAY");
 });
 
 
