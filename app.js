@@ -2,7 +2,7 @@ import express from "express";
 import { writeFile } from "fs/promises";
 
 const app = express();
-const port = 3008;
+const port = 3005;
 
 //
 app.get('/', (req, res) => {
@@ -50,10 +50,6 @@ app.get("/posts/:id", async (req, res) => {
 
 
 //LEV 4 
-
-
-
-
 
 
 
